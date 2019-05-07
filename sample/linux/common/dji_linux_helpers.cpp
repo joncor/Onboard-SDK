@@ -138,6 +138,7 @@ LinuxSetup::initVehicle()
     delete (environment);
     this->vehicle     = nullptr;
     this->environment = nullptr;
+    return;
   }
 
   // Activate
